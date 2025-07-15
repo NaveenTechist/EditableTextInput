@@ -1,0 +1,116 @@
+.home-main-bg {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.home-main-bg-dark {
+  background-color: #212121;
+}
+.home-card-bg {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.row-wise {
+  display: flex;
+}
+.home-body-container {
+  display: flex;
+}
+.home-left-body-conatiner {
+  width: 17%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: px;
+}
+.dark-left-body {
+  background-color: #212121;
+}
+.home-right-body-conatiner {
+  width: 83%;
+  background-color: #ffffff;
+}
+.home-left-each-container {
+  padding: 10px;
+}
+.home-left-icons {
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  fill: #64748b;
+}
+.home-left-icons-dark {
+  fill: #999da3;
+  color: #64748b;
+}
+.home-left-icon-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #64748b;
+}
+.home-left-icon-text-dark {
+  color: #7e858e;
+}
+.home-left-conatiner-selected {
+  background-color: #e2e8f0;
+}
+.select-tab-dark {
+  background-color: #383838;
+}
+.home-left-bottom-logos {
+  width: 30px;
+  height: 30px;
+}
+.home-left-row-wise {
+  display: flex;
+  justify-content: space-around;
+}
+.home-left-top-conatiner {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.home-left-bottom-text {
+  font-size: 15px;
+  color: #475569;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.home-left-header-contact {
+  color: #475569;
+  margin-bottom: 10px;
+}
+.home-left-header-contact-dark {
+  color: #ffffff;
+}
+.selected-icon {
+  fill: red;
+}
+.selected-text {
+  color: black;
+}
+.dark-selected-text {
+  color: rgb(255, 255, 255);
+}
+@media (max-width: 576px) {
+  .home-left-conatiner {
+    display: none;
+  }
+  .home-right-body-conatiner {
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  .home-left-body-conatiner {
+    width: 17%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

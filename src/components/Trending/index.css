@@ -1,0 +1,133 @@
+.trending-right-body-conatiner {
+  display: flex;
+}
+.trending-main-container {
+  width: 83%;
+  background-color: #f9f9f9;
+}
+.trending-main-container-dark {
+  background-color: #0f0f0f;
+}
+.left-side-bar {
+  background-color: #212121;
+}
+.Link {
+  text-decoration: none;
+}
+.trending-top-conatiner {
+  background-color: #f1f1f1;
+  display: flex;
+  padding: 20px;
+  padding-left: 40px;
+}
+.trending-top-conatiner-dark {
+  background-color: #181818;
+  display: flex;
+  padding: 20px;
+  padding-left: 40px;
+}
+.trending-icon {
+  font-size: 30px;
+  fill: red;
+}
+.trending-body-conatiner {
+  padding-left: 40px;
+}
+.trending-icon-conatiner {
+  background-color: #e2e8f0;
+  border-radius: 100%;
+  padding: 12px;
+  margin-right: 20px;
+}
+.trending-icon-conatiner-dark {
+  background-color: #0f0f0f;
+  border-radius: 100%;
+  padding: 12px;
+  margin-right: 20px;
+}
+.trending-icon-text {
+  margin-top: 10px;
+  color: #1e293b;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+.trending-video-img {
+  height: 300px;
+  width: 50%;
+}
+.trending-video-ul {
+  margin-top: 40px;
+}
+.trending-thumbnai-text {
+  display: flex;
+  margin-bottom: 40px;
+}
+.trending-text-conatiner {
+  margin-left: 20px;
+}
+.trending-header-text {
+  color: #181818;
+  margin-bottom: 15px;
+}
+.trending-channel-name {
+  color: #7e858e;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.trending-viewCount {
+  margin-right: 10px;
+}
+@media (max-width: 576px) {
+  .trending-main-container {
+    width: 100%;
+    background-color: #f9f9f9;
+  }
+  .trending-thumbnai-text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+  .trending-body-conatiner {
+    padding-left: 0px;
+  }
+  .trending-video-img {
+    height: 270px;
+    width: 100%;
+  }
+  .mobile-design-name-view {
+    display: flex;
+  }
+  .trending-viewCount {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .trending-header-text {
+    color: #181818;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 19px;
+  }
+  .trending-profile-img {
+    display: block !important;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  .trending-text-conatiner {
+    margin-left: 20px;
+    display: flex;
+  }
+}
+.trending-profile-img {
+  display: none;
+}
+.trending-icon-text-dark {
+  color: #f1f1f1;
+}
+.trending-main-container-dark {
+  background-color: #0f0f0f;
+}

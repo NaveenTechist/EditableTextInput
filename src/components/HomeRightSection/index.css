@@ -1,0 +1,133 @@
+.homeright-main-bg {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.dark-homeright-main-bg {
+  background-color: #000;
+}
+.banner-background {
+  height: 250px;
+  width: 1050px;
+  position: relative;
+}
+.pop-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+.overlay-container {
+  margin-left: 30px;
+  padding-top: 30px;
+}
+.popup-logo {
+  width: 100px;
+  height: 30px;
+  margin-left: px;
+  margin-top: 6px;
+  /* margin: 20px; */
+}
+.pop-text {
+  color: #475569;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.popup-btn {
+  border: 1px #475569 solid;
+  color: #475569;
+  background-color: transparent;
+  padding: 10px;
+  font-weight: 700;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+.cross-icon {
+  margin-right: 27px;
+  font-size: 22px;
+  color: #000;
+  cursor: pointer;
+  margin-bottom: 130px;
+}
+.search-container {
+  padding-top: 20px;
+  margin-left: px;
+  display: flex;
+  width: 50%;
+  height: 40px;
+  margin-bottom: 40px;
+}
+.home-search-container {
+}
+.home-search-input {
+  width: 90%;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 18px;
+  /* margin-top: 20px; */
+  border: 2px solid #ebebeb;
+  padding-right: 10px;
+}
+.home-search-input-dark {
+  background-color: #000;
+  border: 1px solid #676767 !important;
+  color: rgb(255, 255, 255);
+}
+.search-icon {
+  margin-top: 7px;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 26px;
+}
+.search-icon-dark {
+  fill: #ffffff;
+  color: white;
+}
+.search-icon-container {
+  background-color: #f8fafc;
+  width: 90px;
+  height: 40px;
+  border: 2px solid #ebebeb;
+  /* margin-top: 20px; */
+  margin-left: 0px;
+  border-left: none;
+}
+.search-icon-container-dark {
+  background-color: #343030;
+  border: 1px solid #676767;
+  fill: white;
+}
+
+.home-main-body-container {
+  /* padding-left: 70px; */
+  padding-left: 30px;
+  background-color: #f8fafc;
+}
+
+@media (max-width: 576px) {
+  .home-search-input {
+    width: 90%;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    /* margin-top: 20px; */
+    border: 2px solid #ebebeb;
+  }
+  .search-container {
+    padding-top: 20px;
+    margin-left: px;
+    display: flex;
+    width: 90%;
+    height: 40px;
+  }
+  .home-main-body-container {
+    /* padding-left: 70px; */
+  }
+}
+.dark {
+  background-color: #000;
+}

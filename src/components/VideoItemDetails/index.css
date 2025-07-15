@@ -1,0 +1,119 @@
+.react-video-sty {
+  width: 190%;
+  height: 300px;
+}
+.specific-video-right-body-conatiner {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 95%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: red; */
+}
+.row-wise-space-between {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.m10 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.second-container {
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+hr {
+  width: 97%;
+  fill: #64748b;
+}
+.vide-detail-icon-like {
+  font-size: 20px;
+  margin-right: 5px;
+  fill: #64748b;
+}
+.mr {
+  margin-right: 20px;
+}
+.vide--detail-profile {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.profile-subs {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .specific-video-right-body-conatiner {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: px;
+    width: 121%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .all-video-botttom-conatiner {
+    margin-left: 20px;
+  }
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block !important;
+  }
+  .row-wise-space-between {
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .m10 {
+    margin-top: 20px;
+    margin-bottom: px;
+  }
+  .second-container {
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .views-year-container {
+    margin-left: -10px;
+  }
+  .mobile-subs {
+    margin-left: 0px;
+    margin-top: -7px;
+  }
+  .video-details {
+    margin-top: -100px;
+    height: 35%;
+  }
+}
+.like-selected {
+  color: #2563eb;
+}
+.like-selected-icon {
+  fill: #3b82f6;
+}
+.video-details {
+  margin-top: 250px;
+}
+.mobile-view {
+  display: none;
+}
+.video-details-body-conatiner {
+  width: 83%;
+  background-color: #ffffff;
+}
+.video-details-body-conatiner-dark {
+  width: 83%;
+  background-color: #000;
+}
+.video-details-white-text {
+  color: #f9f9f9;
+}

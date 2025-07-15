@@ -1,0 +1,155 @@
+.videos-main-container {
+  margin-top: 30px;
+  width: 300px;
+  margin-right: 20px;
+  /* background-color: red; */
+}
+.video-user-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.video-text-container {
+  display: flex;
+  flex-direction: column;
+}
+.video-title {
+  color: #475569;
+  font-weight: 450;
+  font-size: 14px;
+}
+.all-text-video-container {
+  margin-top: 5px;
+}
+.channel-name {
+  color: #64748b;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.views-count {
+  color: #64748b;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.each-video-containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.thumbnail-img {
+  width: 310px;
+  height: 200px;
+}
+li {
+  list-style: none;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.failure-view {
+  margin-top: 40px;
+  width: 280px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.failure-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 50px; */
+  padding-bottom: 30px;
+  margin-right: 50px;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100vh;
+}
+.failure-header {
+}
+.failure-para {
+  color: #475569;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.failure-retry-btn {
+  background-color: #4f46e5;
+  padding: 10px;
+  border-width: 0px;
+  width: 100px;
+  border-radius: 4px;
+  color: white;
+}
+@media (max-width: 576px) {
+  .each-video-containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .videos-main-container {
+    margin-top: 30px;
+    width: 440px;
+    margin-right: 20px;
+    background-color: transparent;
+  }
+  .thumbnail-img {
+    width: 440px;
+    height: 250px;
+  }
+  .video-text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-name-views-date {
+    display: flex;
+  }
+  .views-count {
+    color: #64748b;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 450;
+    margin-top: 8px;
+    margin-left: 15px;
+  }
+  .failure-view {
+    margin-top: 40px;
+    width: 250px;
+    height: 220px;
+    margin-bottom: 20px;
+  }
+  .failure-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+    padding-bottom: 30px;
+    margin-right: 50px;
+    background-color: #f1f1f1;
+    width: 120%;
+    height: 100vh;
+  }
+}
+.dark-video-title {
+  color: #ebebeb;
+  font-weight: 450;
+  font-size: 14px;
+}
+.dark-mode-no-results-head {
+  color: white;
+}
+.dark-mode-no-results-para {
+  color: #64748b;
+}
+.failure-dark {
+  background-color: #000;
+}
