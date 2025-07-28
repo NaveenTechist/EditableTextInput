@@ -198,7 +198,7 @@ class VideoItemDetails extends Component {
               <div className="row-wise profile-subs ">
                 <img
                   src={videoDetailsData.profileImageUrl}
-                  alt={videoDetailsData.name}
+                  alt="channel logo"
                   className="vide--detail-profile"
                 />
                 <div>

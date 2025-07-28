@@ -100,11 +100,19 @@ class Videos extends Component {
         viewCount: each.view_count,
         publishedAt: each.published_at,
       }))
+      if (toCamelCase.length === 0) {
+        this.setState({videoStatus: videoDataDisplay.noSearchResults})
+      }
+      if (toCamelCase.length > 0) {
+        this.setState({
+          videosData: toCamelCase,
+          videoStatus: videoDataDisplay.success,
+        })
+      }
 
-      this.setState({videosData: toCamelCase})
       console.log(arrayConvert)
     } else {
-      this.setState({videoStatus: videoDataDisplay.noSearchResults})
+      this.setState({videoStatus: videoDataDisplay.failure})
     }
   }
 

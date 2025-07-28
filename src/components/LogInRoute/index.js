@@ -52,8 +52,13 @@ class LogInRoute extends Component {
     if (token !== undefined) {
       return <Redirect to="/" />
     }
-    const {showPassword, username, password, errorMsg, errorMsgDisplay} =
-      this.state
+    const {
+      showPassword,
+      username,
+      password,
+      errorMsg,
+      errorMsgDisplay,
+    } = this.state
     return (
       <Commoncontent.Consumer>
         {value => {
@@ -65,6 +70,12 @@ class LogInRoute extends Component {
                 darkAndLightMode && 'login-main-bg-dark'
               }`}
             >
+              <div className="view-others">
+                <p>
+                  Name: rahul <br />
+                  Password: rahul@2021{' '}
+                </p>
+              </div>
               <div
                 className={`login-card-bg ${
                   darkAndLightMode && 'login-card-bg-dark'
@@ -77,7 +88,7 @@ class LogInRoute extends Component {
                         ? 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-dark-theme-img.png'
                         : 'https://assets.ccbp.in/frontend/react-js/nxt-watch-logo-light-theme-img.png'
                     }
-                    alt="logo"
+                    alt="website logo"
                     className="login-logo"
                   />
                 </div>

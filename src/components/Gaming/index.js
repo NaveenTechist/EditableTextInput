@@ -139,7 +139,7 @@ class Trending extends Component {
                     >
                       <img
                         src={each.thumbnailUrl}
-                        alt={each.name}
+                        alt="video thumbnail"
                         className="gaming-video-img"
                       />
                       <div className="gaming-text-conatiner2">

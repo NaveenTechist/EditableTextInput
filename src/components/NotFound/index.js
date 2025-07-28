@@ -29,7 +29,7 @@ const NotFound = () => (
                   Page Not Found
                 </h2>
                 <p className="failure-para">
-                  We are sorry, the page you requested could not be found.
+                  we are sorry, the page you requested could not be found
                 </p>
               </div>
             </div>
